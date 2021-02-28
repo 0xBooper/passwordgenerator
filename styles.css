@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+body {
+    background-color: #00FF59;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Comfortaa, Georgia;
+}
+
+.container {
+    margin: 0 50% 0 50%;
+    background-color: #7CF5F7;
+    padding: 3rem;
+    border-radius: 2rem;
+    color: #264C4D;
+    border: 5px solid #004013;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    color: #264C4D;
+}
+
+.title {
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+.num-input {
+    width: 2rem;
+}
+
+.charAmountContainer {
+    display: flex;
+    align-items: center;
+}
+
+.pass {
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border: 5px solid #333;
+    height: 2rem;
+    width: 350px;
+    border-radius: .625rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+}
+
+.btn {
+    grid-column: span 2;
+    background-color: transparent;
+    border: 3px solid #264C4D;
+    color: #264C4D;
+    padding: .5rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 1rem;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
