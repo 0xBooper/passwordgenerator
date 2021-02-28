@@ -1,2 +1,14 @@
-# passwordgenerator
-A simple password generator built using HTML, CSS and vanilla JS. (Note: I learned this from a tutorial from Web Dev Simplfied)
+# Password Generator
+
+Built using HTML, CSS, and vanilla JS.
+
+## Features:
+  <ul>
+    <li>Allows you to create passwords of varying length</li>
+    <li>Has support for symbols, numbers, and uppercase letters</li>
+  </ul>
+
+
+## Warning:
+  You can cannot use all three options selected. Meaning, you cannot use uppercase letters, symbols, and numbers all at once. You can do symbols and numbers together however.
+### (I learned this from Web Dev Simplified)
